@@ -71,6 +71,10 @@ Esses métodos e funções são essenciais para criar, manipular, e interagir co
 
 # Imagem das aplicações
 
+
+# Cadastrar Produto
+<img src="img/cadastrar.png" width="600">
+
 # Pedidos
 <img src="img/pedido.png.png" width="600">
 
