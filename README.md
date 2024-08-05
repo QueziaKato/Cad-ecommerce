@@ -29,17 +29,44 @@ O projeto desenvolvido em sala de aula é uma aplicação de carrinho de compras
 - **Função:** `$_POST`
 - **Descrição**: Superglobal que coleta dados enviados via método POST em um formulário HTML. Aqui, é usado para obter valores de campos do formulário.
 
-### Explicação do Código
+7. **`mysqli_query`**($mysqli, $grava_produto)
+- **Função**: mysqli_query()
+- **Descrição**: Executa uma consulta no banco de dados MySQL. Recebe a conexão ($mysqli) e a consulta SQL ($grava_produto). Retorna um resultado que pode ser usado para verificar se a consulta foi bem-sucedida.
 
-- O arquivo PHP inclui um script de conexão com o banco de dados (`conexao.php`) usando `include_once()`.
-- O HTML define a estrutura da página, incluindo um formulário para cadastrar um novo produto.
-- O formulário inclui campos para nome, descrição, estoque, preço, categoria e marca do produto.
-- O PHP embutido no HTML é usado para preencher as opções das listas suspensas (categorias e marcas) com dados do banco de dados.
-  - **`mysqli_query()`** executa consultas SQL.
-  - **`mysqli_fetch_assoc()`** recupera dados de consulta de uma maneira que pode ser usada para gerar opções de seleção (`<option>`).
- - **`require_once`**('controller/produtos-resumo.php'):
-Esta linha está dentro de uma tag PHP <?php ... ?>, o que indica que é código PHP.
-A função require_once é usada para incluir o conteúdo do arquivo produtos-resumo.php, que está localizado na pasta controller.
-O arquivo incluído pode conter código PHP que gera o resumo do pedido, interage com o banco de dados, ou realiza outras operações necessárias para exibir as informações de resumo de pedido na página.
-A utilização de require_once garante que o arquivo produtos-resumo.php será incluído apenas uma vez, mesmo que a linha de inclusão seja chamada múltiplas vezes ao longo do script.
+8. **`mysqli_affected_rows`**($mysqli)
+- **Função**: mysqli_affected_rows()
+- **Descrição**: Retorna o número de linhas afetadas pela última consulta SQL. Aqui, é usado para verificar se o comando INSERT inseriu algum registro na tabela.
+Sim, o código PHP que você forneceu utiliza vários métodos e funções PHP. Vou listar e explicar cada um deles para que você possa entender como são usados no seu script.
+
+9. **`mysqli_query($mysqli, $cad_categoria)`**
+   - **Função:** `mysqli_query()`
+   - **Descrição:** Executa uma consulta SQL no banco de dados MySQL. Recebe a conexão (`$mysqli`) e a consulta SQL (`$cad_categoria`). Retorna `true` em caso de sucesso ou `false` em caso de falha. 
+
+10. **`mysqli_error($mysqli)`**
+   - **Função:** `mysqli_error()`
+   - **Descrição:** Retorna uma descrição textual do último erro ocorrido na conexão MySQL. É útil para depuração e exibição de mensagens de erro mais detalhadas.
+
+11. **`mysqli_close($mysqli)`**
+   - **Função:** `mysqli_close()`
+   - **Descrição:** Fecha a conexão com o banco de dados MySQL. Deve ser chamado quando a interação com o banco de dados estiver concluída para liberar recursos.
+
+
+# Explicação
+Resumo Geral
+Inclusão de Arquivos:
+include_once() e require_once() são usados para incluir e avaliar arquivos externos. A principal diferença é que include_once() e require_once() garantem que o arquivo será incluído apenas uma vez, evitando múltiplas inclusões.
+
+Manipulação de Dados de Formulários:
+$_POST é utilizado para coletar dados enviados via método POST em formulários HTML.
+Interação com o Banco de Dados:
+mysqli_query() executa consultas SQL.
+mysqli_fetch_assoc() obtém resultados da consulta.
+mysqli_affected_rows() verifica quantas linhas foram afetadas pela última consulta.
+mysqli_error() fornece uma descrição do erro se a consulta falhar.
+mysqli_close() fecha a conexão com o banco de dados.
+
+Saída de Dados:
+echo é utilizado para imprimir texto e variáveis na saída padrão, gerando HTML dinâmico e mensagens para o usuário.
+Esses métodos e funções são essenciais para criar, manipular, e interagir com dados em uma aplicação PHP que utiliza um banco de dados MySQL.
+
 
