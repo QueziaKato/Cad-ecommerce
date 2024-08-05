@@ -1,32 +1,7 @@
-# Projeto de  Cadastro Ecommerce 🛒
+# Projeto de  Cadastro Ecommerce 
 
 ## Descrição
-
-Este projeto é uma aplicação de cadastro que utiliza PHP para gerenciar registros de usuários. Abaixo estão os métodos utilizados, exemplos de uso, e documentação adicional.
+O projeto desenvolvido em sala de aula é uma aplicação de carrinho de compras para um e-commerce. Este sistema permite aos usuários adicionar produtos ao carrinho, visualizar o conteúdo do carrinho e gerenciar suas compras de maneira eficiente. A aplicação simula o funcionamento básico de um sistema de e-commerce, oferecendo uma interface simples e intuitiva para que os usuários possam experimentar a dinâmica de adicionar produtos e visualizar o total de suas compras. 🛒
 
 ## Métodos PHP Utilizados
 
-### 1. Conectar ao Banco de Dados
-
-**Método:** `connectToDatabase()`
-
-```php
-/**
- * Conecta ao banco de dados MySQL.
- *
- * @return PDO
- */
-function connectToDatabase() {
-    $host = 'localhost';
-    $dbname = 'nome_do_banco';
-    $username = 'usuario';
-    $password = 'senha';
-    
-    try {
-        $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        return $pdo;
-    } catch (PDOException $e) {
-        echo 'Conexão falhou: ' . $e->getMessage();
-    }
-}
