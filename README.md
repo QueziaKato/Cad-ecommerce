@@ -33,7 +33,7 @@ O projeto desenvolvido em sala de aula é uma aplicação de carrinho de compras
 - O PHP embutido no HTML é usado para preencher as opções das listas suspensas (categorias e marcas) com dados do banco de dados.
   - **`mysqli_query()`** executa consultas SQL.
   - **`mysqli_fetch_assoc()`** recupera dados de consulta de uma maneira que pode ser usada para gerar opções de seleção (`<option>`).
- - require_once('controller/produtos-resumo.php'):
+ - **`require_once`**('controller/produtos-resumo.php'):
 Esta linha está dentro de uma tag PHP <?php ... ?>, o que indica que é código PHP.
 A função require_once é usada para incluir o conteúdo do arquivo produtos-resumo.php, que está localizado na pasta controller.
 O arquivo incluído pode conter código PHP que gera o resumo do pedido, interage com o banco de dados, ou realiza outras operações necessárias para exibir as informações de resumo de pedido na página.
