@@ -1,9 +1,9 @@
 # Projeto de  Cadastro Ecommerce 
 
-## Descrição
+## Descrição 📝
 O projeto desenvolvido em sala de aula é uma aplicação de carrinho de compras para um e-commerce. Este sistema permite aos usuários adicionar produtos ao carrinho, visualizar o conteúdo do carrinho e gerenciar suas compras de maneira eficiente. A aplicação simula o funcionamento básico de um sistema de e-commerce, oferecendo uma interface simples e intuitiva para que os usuários possam experimentar a dinâmica de adicionar produtos e visualizar o total de suas compras. 🛒
 
-## Métodos PHP Utilizados
+## Métodos PHP Utilizados ⚙️
 
 1. **`include_once("controller/conexao.php")`**
    - **Função:** `include_once()`
@@ -51,7 +51,7 @@ Sim, o código PHP que você forneceu utiliza vários métodos e funções PHP. 
    - **Descrição:** Fecha a conexão com o banco de dados MySQL. Deve ser chamado quando a interação com o banco de dados estiver concluída para liberar recursos.
 
 
-# Explicação
+# Explicação ⚠️
 Inclusão de Arquivos:
 *include_once*() e *require_once*() são usados para incluir e avaliar arquivos externos. A principal diferença é que *include_once*() e *require_once*() garantem que o arquivo será incluído apenas uma vez, evitando múltiplas inclusões.
 
