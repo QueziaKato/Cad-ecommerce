@@ -5,3 +5,28 @@ O projeto desenvolvido em sala de aula é uma aplicação de carrinho de compras
 
 ## Métodos PHP Utilizados
 
+1. **`include_once("controller/conexao.php")`**
+   - **Função:** `include_once()`
+   - **Descrição:** Inclui e avalia o arquivo especificado durante a execução do script. A diferença de `include_once()` para `include()` é que o primeiro garante que o arquivo será incluído apenas uma vez, evitando múltiplas inclusões que podem causar erros.
+
+2. **`mysqli_query($mysqli, $resultado_categoria)`**
+   - **Função:** `mysqli_query()`
+   - **Descrição:** Executa uma consulta no banco de dados MySQL. Recebe a conexão (`$mysqli`) e a consulta SQL (`$resultado_categoria`), e retorna um resultado que pode ser manipulado com outras funções `mysqli`.
+
+3. **`mysqli_fetch_assoc($resultcategoria)`**
+   - **Função:** `mysqli_fetch_assoc()`
+   - **Descrição:** Obtém uma linha de resultado de uma consulta como uma matriz associativa. Usado para iterar sobre os resultados da consulta.
+
+4. **`echo`**
+   - **Função:** `echo`
+   - **Descrição:** Imprime uma ou mais strings. Utilizado para gerar HTML dinâmico com base nos dados recuperados do banco de dados.
+
+### Explicação do Código
+
+- O arquivo PHP inclui um script de conexão com o banco de dados (`conexao.php`) usando `include_once()`.
+- O HTML define a estrutura da página, incluindo um formulário para cadastrar um novo produto.
+- O formulário inclui campos para nome, descrição, estoque, preço, categoria e marca do produto.
+- O PHP embutido no HTML é usado para preencher as opções das listas suspensas (categorias e marcas) com dados do banco de dados.
+  - **`mysqli_query()`** executa consultas SQL.
+  - **`mysqli_fetch_assoc()`** recupera dados de consulta de uma maneira que pode ser usada para gerar opções de seleção (`<option>`).
+
