@@ -25,6 +25,10 @@ O projeto desenvolvido em sala de aula é uma aplicação de carrinho de compras
 - **Função:** `require_once`()
 - **Descrição**: Inclui e avalia o arquivo especificado apenas uma vez durante a execução do script. Se o arquivo já foi incluído antes, ele não será incluído novamente. Isso é útil para evitar múltiplas inclusões de um mesmo arquivo, o que pode causar erros, especialmente ao definir funções, classes ou instâncias de objetos.
 
+6. **`$_POST`**
+- **Função:** `$_POST`
+- **Descrição**: Superglobal que coleta dados enviados via método POST em um formulário HTML. Aqui, é usado para obter valores de campos do formulário.
+
 ### Explicação do Código
 
 - O arquivo PHP inclui um script de conexão com o banco de dados (`conexao.php`) usando `include_once()`.
