@@ -77,7 +77,7 @@ Esses métodos e funções são essenciais para criar, manipular, e interagir co
 # Carrinho
 <img src="img/carrinho.png" width="600">
 
-# Finalizar
+# Finalização de Pedidos
 <img src="img/finalizar.png" width="600">
 
 
