@@ -71,6 +71,8 @@ Esses métodos e funções são essenciais para criar, manipular, e interagir co
 
 # Imagem das aplicações
 <img src="img/pedido.png.png" width="600">
+
+
 <img src="img/carrinho.png" width="600">
 
 
