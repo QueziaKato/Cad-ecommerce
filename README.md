@@ -52,21 +52,20 @@ Sim, o código PHP que você forneceu utiliza vários métodos e funções PHP. 
 
 
 # Explicação
-Resumo Geral
 Inclusão de Arquivos:
-include_once() e require_once() são usados para incluir e avaliar arquivos externos. A principal diferença é que include_once() e require_once() garantem que o arquivo será incluído apenas uma vez, evitando múltiplas inclusões.
+*include_once*() e *require_once*() são usados para incluir e avaliar arquivos externos. A principal diferença é que *include_once*() e *require_once*() garantem que o arquivo será incluído apenas uma vez, evitando múltiplas inclusões.
 
 Manipulação de Dados de Formulários:
-$_POST é utilizado para coletar dados enviados via método POST em formulários HTML.
+*$_POST* é utilizado para coletar dados enviados via método POST em formulários HTML.
 Interação com o Banco de Dados:
-mysqli_query() executa consultas SQL.
-mysqli_fetch_assoc() obtém resultados da consulta.
-mysqli_affected_rows() verifica quantas linhas foram afetadas pela última consulta.
-mysqli_error() fornece uma descrição do erro se a consulta falhar.
-mysqli_close() fecha a conexão com o banco de dados.
+*mysqli_query*() executa consultas SQL.
+*mysqli_fetch_assoc*() obtém resultados da consulta.
+*mysqli_affected_rows*() verifica quantas linhas foram afetadas pela última consulta.
+*mysqli_error*() fornece uma descrição do erro se a consulta falhar.
+*mysqli_close*() fecha a conexão com o banco de dados.
 
 Saída de Dados:
-echo é utilizado para imprimir texto e variáveis na saída padrão, gerando HTML dinâmico e mensagens para o usuário.
+*echo* é utilizado para imprimir texto e variáveis na saída padrão, gerando HTML dinâmico e mensagens para o usuário.
 Esses métodos e funções são essenciais para criar, manipular, e interagir com dados em uma aplicação PHP que utiliza um banco de dados MySQL.
 
 
