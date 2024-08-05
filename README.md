@@ -78,6 +78,9 @@ Esses métodos e funções são essenciais para criar, manipular, e interagir co
 # Cadastro de Categoria
 <img src="img/categoria.png" width="600">
 
+# Cadastro de Marcas
+<img src="img/marcas.png" width="600">
+
 # Pedidos
 <img src="img/pedido.png.png" width="600">
 
