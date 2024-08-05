@@ -57,6 +57,7 @@ Inclusão de Arquivos:
 
 Manipulação de Dados de Formulários:
 *$_POST* é utilizado para coletar dados enviados via método POST em formulários HTML.
+
 Interação com o Banco de Dados:
 *mysqli_query*() executa consultas SQL.
 *mysqli_fetch_assoc*() obtém resultados da consulta.
