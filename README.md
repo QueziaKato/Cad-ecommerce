@@ -70,7 +70,7 @@ Saída de Dados:
 Esses métodos e funções são essenciais para criar, manipular, e interagir com dados em uma aplicação PHP que utiliza um banco de dados MySQL.
 
 # Imagem das aplicações
-
 <img src="img/pedido.png.png" width="600">
+<img src="img/carrinho.png" width="600">
 
 
