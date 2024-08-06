@@ -73,7 +73,7 @@ Esses métodos e funções são essenciais para criar, manipular, e interagir co
 
 
 # Cadastrar Produto
-<img src="img/cadastrar.png" width="600">
+<img src="img/cadastrar.png" width="400">
 
 # Cadastro de Categoria
 <img src="img/categoria.png" width="600">
