@@ -93,6 +93,7 @@ Esses métodos e funções são essenciais para criar, manipular, e interagir co
 # Tecnologia ultilizadas 🛠️ 
  HTML
  JAVASCRIPT
+ CSS
  PHP
  XAMPP
  GITHUB
@@ -100,4 +101,4 @@ Esses métodos e funções são essenciais para criar, manipular, e interagir co
 
 #  Autores ✒️
 * https://github.com/QueziaKato
-<img src="img/130574133.jpg" width="400">
+<img src="img/130574133.jpg" width="100">
