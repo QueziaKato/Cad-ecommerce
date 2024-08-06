@@ -90,8 +90,15 @@ Esses métodos e funções são essenciais para criar, manipular, e interagir co
 # Finalização de Pedidos ✔️
 <img src="img/finalizar.png" width="400">
 
+# Tecnologia ultilizadas 🛠️ 
+ CSS
+ HTML
+ JAVASCRIPT
+ BOOTSTRAP
+
 #  Autores ✒️
 * Quezia Tamie Kato
+* https://github.com/hiseamorim
 
 
 
