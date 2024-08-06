@@ -98,6 +98,6 @@ Esses métodos e funções são essenciais para criar, manipular, e interagir co
 #  Autores ✒️
 * Quezia Tamie Kato
 * https://github.com/hiseamorim
-* https://github.com/LeonardoRochaMarista/LeonardoRochaMarista
+* https://github.com/LeonardoRochaMarista
 
 
