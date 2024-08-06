@@ -69,25 +69,25 @@ Saída de Dados:
 *echo* é utilizado para imprimir texto e variáveis na saída padrão, gerando HTML dinâmico e mensagens para o usuário.
 Esses métodos e funções são essenciais para criar, manipular, e interagir com dados em uma aplicação PHP que utiliza um banco de dados MySQL.
 
-# Imagem das aplicações
+# Imagem das aplicações 📸
 
 
-# Cadastrar Produto
+# Cadastrar Produto ⬇️
 <img src="img/cadastrar.png" width="400">
 
-# Cadastro de Categoria
+# Cadastro de Categoria ⬇️
 <img src="img/categoria.png" width="400">
 
-# Cadastro de Marcas
+# Cadastro de Marcas ⬇️
 <img src="img/marcas.png" width="400">
 
-# Pedidos
+# Pedidos 🛍️
 <img src="img/pedido.png.png" width="400">
 
-# Carrinho
+# Carrinho 🛒
 <img src="img/carrinho.png" width="400">
 
-# Finalização de Pedidos
+# Finalização de Pedidos ✔️
 <img src="img/finalizar.png" width="400">
 
 
