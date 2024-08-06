@@ -100,6 +100,8 @@ Esses métodos e funções são essenciais para criar, manipular, e interagir co
 
 #  Autores ✒️
 * Quezia Tamie Kato
+![Texto Alternativo](https://avatars.githubusercontent.com/u/130574133?s=400&u=d2e319cac3f0206e3ddb8594bc99890dcf42b596&v=4)
+
 * https://github.com/hiseamorim
 * https://github.com/LeonardoRochaMarista
 
