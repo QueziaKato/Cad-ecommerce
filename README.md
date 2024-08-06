@@ -91,10 +91,9 @@ Esses métodos e funções são essenciais para criar, manipular, e interagir co
 <img src="img/finalizar.png" width="400">
 
 # Tecnologia ultilizadas 🛠️ 
- CSS
- HTML
+ HTML 5
  JAVASCRIPT
- BOOTSTRAP
+ PHP
 
 #  Autores ✒️
 * Quezia Tamie Kato
