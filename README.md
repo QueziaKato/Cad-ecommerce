@@ -91,9 +91,12 @@ Esses métodos e funções são essenciais para criar, manipular, e interagir co
 <img src="img/finalizar.png" width="400">
 
 # Tecnologia ultilizadas 🛠️ 
- HTML 5
+ HTML
  JAVASCRIPT
  PHP
+ XAMPP
+ GITHUB
+ VSCODE
 
 #  Autores ✒️
 * Quezia Tamie Kato
