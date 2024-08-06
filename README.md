@@ -76,19 +76,19 @@ Esses métodos e funções são essenciais para criar, manipular, e interagir co
 <img src="img/cadastrar.png" width="400">
 
 # Cadastro de Categoria
-<img src="img/categoria.png" width="600">
+<img src="img/categoria.png" width="400">
 
 # Cadastro de Marcas
-<img src="img/marcas.png" width="600">
+<img src="img/marcas.png" width="400">
 
 # Pedidos
-<img src="img/pedido.png.png" width="600">
+<img src="img/pedido.png.png" width="400">
 
 # Carrinho
-<img src="img/carrinho.png" width="600">
+<img src="img/carrinho.png" width="400">
 
 # Finalização de Pedidos
-<img src="img/finalizar.png" width="600">
+<img src="img/finalizar.png" width="400">
 
 
 
