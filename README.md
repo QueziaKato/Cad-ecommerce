@@ -99,3 +99,5 @@ Esses métodos e funções são essenciais para criar, manipular, e interagir co
  VSCODE
 
 #  Autores ✒️
+* https://github.com/QueziaKato
+<img src="img/130574133.jpg" width="400">
